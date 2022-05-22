@@ -352,6 +352,20 @@ p {
   }
 }
 
+/* nav-bar */
+.nav-btn {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  font-size: 2.5rem;
+  color: var(--clr-primary);
+  z-index: 1;
+  /* animation */
+}
+
+
+
+
 /* header */
 .header {
   min-height: 100vh;
@@ -738,10 +752,43 @@ p {
     width: 50%;
   }
 }
-
 /* /contact */
 
 /* footer */
+.footer {
+  background-color: black;
+  text-align: center;
+}
+
+.social-icon {
+  color: var(--clr-white);
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  transition: var(--transition);
+}
+
+.social-icon:hover {
+  color: var(--ff-primary);
+}
+
+.footer-text {
+  margin-top: 1.25rem;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  font-weight: 400;
+}
+
+.footer-text span:last-of-type {
+  color: var(--clr-primary);
+}
+
+
+
+
+
+
+
+
 
 /* /footer */
 
